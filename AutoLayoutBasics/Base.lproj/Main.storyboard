@@ -18,10 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2LT-48-5nN">
-                                <rect key="frame" x="87" y="269" width="200" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2LT-48-5nN">
+                                <rect key="frame" x="87" y="517" width="200" height="100"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.39607843139999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="EMg-NP-re7"/>
                                     <constraint firstAttribute="width" constant="200" id="Ixm-xi-Lk7"/>
                                 </constraints>
                             </view>
@@ -29,6 +30,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2LT-48-5nN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BG6-cT-zAw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2LT-48-5nN" secondAttribute="bottom" constant="50" id="Gh0-uk-tre"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
