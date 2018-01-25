@@ -12,6 +12,7 @@
 		9753C6AA201A50D10065AE75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9753C6A8201A50D10065AE75 /* Main.storyboard */; };
 		9753C6AC201A50D10065AE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9753C6AB201A50D10065AE75 /* Assets.xcassets */; };
 		9753C6AF201A50D10065AE75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9753C6AD201A50D10065AE75 /* LaunchScreen.storyboard */; };
+		9753C6B7201A7A6E0065AE75 /* LayoutGuides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9753C6B6201A7A6E0065AE75 /* LayoutGuides.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9753C6AB201A50D10065AE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9753C6AE201A50D10065AE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9753C6B0201A50D10065AE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9753C6B6201A7A6E0065AE75 /* LayoutGuides.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LayoutGuides.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				9753C6AB201A50D10065AE75 /* Assets.xcassets */,
 				9753C6AD201A50D10065AE75 /* LaunchScreen.storyboard */,
 				9753C6B0201A50D10065AE75 /* Info.plist */,
+				9753C6B6201A7A6E0065AE75 /* LayoutGuides.storyboard */,
 			);
 			path = AutoLayoutBasics;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9753C6AF201A50D10065AE75 /* LaunchScreen.storyboard in Resources */,
+				9753C6B7201A7A6E0065AE75 /* LayoutGuides.storyboard in Resources */,
 				9753C6AC201A50D10065AE75 /* Assets.xcassets in Resources */,
 				9753C6AA201A50D10065AE75 /* Main.storyboard in Resources */,
 			);
