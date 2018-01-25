@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VjO-H0-rRo">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="m4D-z1-zEM">
+            <objects>
+                <viewController id="VjO-H0-rRo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O0c-qr-x1D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The first label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vym-jY-NaG">
+                                <rect key="frame" x="16" y="52" width="104.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A long label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alO-KG-GhA">
+                                <rect key="frame" x="136.5" y="52" width="89.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="An even longer label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zhk-Pk-Vif">
+                                <rect key="frame" x="242" y="52" width="117" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Zhk-Pk-Vif" firstAttribute="top" secondItem="Vym-jY-NaG" secondAttribute="top" id="0mb-FR-xAx"/>
+                            <constraint firstItem="alO-KG-GhA" firstAttribute="leading" secondItem="Vym-jY-NaG" secondAttribute="trailing" constant="16" id="UuP-ES-YrP"/>
+                            <constraint firstItem="Zhk-Pk-Vif" firstAttribute="leading" secondItem="alO-KG-GhA" secondAttribute="trailing" constant="16" id="Uxf-i6-smN"/>
+                            <constraint firstItem="Vym-jY-NaG" firstAttribute="leading" secondItem="p1b-Sn-oMa" secondAttribute="leading" constant="16" id="Wdp-F1-yvz"/>
+                            <constraint firstItem="alO-KG-GhA" firstAttribute="top" secondItem="Vym-jY-NaG" secondAttribute="top" id="eDa-ya-CbS"/>
+                            <constraint firstAttribute="trailing" secondItem="Zhk-Pk-Vif" secondAttribute="trailing" constant="16" id="k7h-VH-Mwt"/>
+                            <constraint firstItem="Vym-jY-NaG" firstAttribute="top" secondItem="p1b-Sn-oMa" secondAttribute="top" constant="32" id="wtn-il-5d4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="p1b-Sn-oMa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d22-Zo-BzP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="162"/>
+        </scene>
+    </scenes>
+</document>

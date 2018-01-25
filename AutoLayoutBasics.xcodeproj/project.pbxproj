@@ -14,6 +14,7 @@
 		9753C6AF201A50D10065AE75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9753C6AD201A50D10065AE75 /* LaunchScreen.storyboard */; };
 		9753C6B7201A7A6E0065AE75 /* LayoutGuides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9753C6B6201A7A6E0065AE75 /* LayoutGuides.storyboard */; };
 		9753C6B9201A8B490065AE75 /* Inequalities.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9753C6B8201A8B490065AE75 /* Inequalities.storyboard */; };
+		9753C6BB201A91770065AE75 /* IntrinsicContentSize.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9753C6BA201A91770065AE75 /* IntrinsicContentSize.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9753C6B0201A50D10065AE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9753C6B6201A7A6E0065AE75 /* LayoutGuides.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LayoutGuides.storyboard; sourceTree = "<group>"; };
 		9753C6B8201A8B490065AE75 /* Inequalities.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Inequalities.storyboard; sourceTree = "<group>"; };
+		9753C6BA201A91770065AE75 /* IntrinsicContentSize.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IntrinsicContentSize.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				9753C6B0201A50D10065AE75 /* Info.plist */,
 				9753C6B6201A7A6E0065AE75 /* LayoutGuides.storyboard */,
 				9753C6B8201A8B490065AE75 /* Inequalities.storyboard */,
+				9753C6BA201A91770065AE75 /* IntrinsicContentSize.storyboard */,
 			);
 			path = AutoLayoutBasics;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9753C6AF201A50D10065AE75 /* LaunchScreen.storyboard in Resources */,
+				9753C6BB201A91770065AE75 /* IntrinsicContentSize.storyboard in Resources */,
 				9753C6B7201A7A6E0065AE75 /* LayoutGuides.storyboard in Resources */,
 				9753C6AC201A50D10065AE75 /* Assets.xcassets in Resources */,
 				9753C6AA201A50D10065AE75 /* Main.storyboard in Resources */,
