@@ -34,7 +34,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Wsw-xD-6jA" firstAttribute="centerY" secondItem="QuG-ut-jC2" secondAttribute="centerY" id="8A0-bb-ume"/>
-                            <constraint firstItem="hzh-pm-mhs" firstAttribute="bottom" secondItem="lcL-Z5-Aqp" secondAttribute="bottom" constant="200" id="8pX-LL-ZFm"/>
+                            <constraint firstItem="hzh-pm-mhs" firstAttribute="bottom" secondItem="lcL-Z5-Aqp" secondAttribute="bottom" priority="750" constant="200" id="8pX-LL-ZFm"/>
                             <constraint firstItem="lcL-Z5-Aqp" firstAttribute="centerX" secondItem="QuG-ut-jC2" secondAttribute="centerX" id="HXK-iG-muC"/>
                             <constraint firstItem="lcL-Z5-Aqp" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Wsw-xD-6jA" secondAttribute="bottom" constant="32" id="iDi-k8-cgo"/>
                             <constraint firstItem="Wsw-xD-6jA" firstAttribute="centerX" secondItem="QuG-ut-jC2" secondAttribute="centerX" id="ilj-m3-VuK"/>
